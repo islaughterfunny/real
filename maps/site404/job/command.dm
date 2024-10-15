@@ -1,5 +1,5 @@
 /datum/job/captain
-	title = "Station Commander"
+	title = "Station Director"
 	department = "Command"
 	head_position = TRUE
 	department_flag = COM
@@ -11,7 +11,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/command/facilitydir
 	class = CLASS_A
 	hud_icon = "hudsitedirector"
-	alt_titles = list("Captain", "Station Director", "Commanding Officer")
+	alt_titles = list("Captain", "Station Commander", "Commanding Officer")
 
 	total_positions = 1
 	spawn_positions = 1
@@ -42,7 +42,7 @@
 	return get_all_site_access()
 
 /datum/job/hop
-	title = "First Officer"
+	title = "Head of Personnel"
 	department = "Command"
 	supervisors = "The Site Director"
 	department_flag = COM|CIV|BUR|SRV
@@ -57,7 +57,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/command/headofhr
 	class = CLASS_A
 	hud_icon = "hudhumanresources"
-	alt_titles = list("Human Resources Director", "Operations Manager")
+	alt_titles = list("Human Resources Director", "Executive Officer")
 	requirements = list(EXP_TYPE_COMMAND = 120, EXP_TYPE_BUR = 300)
 
 	access = list(
@@ -109,7 +109,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/command/commsofficer
 	class = CLASS_B
 	hud_icon = "hudcommsofficer"
-	alt_titles = list("Communications Director")
+	alt_titles = list("Communications Director, Operations Manager, Director of Communications")
 	requirements = list("Communications Technician" = 360)
 
 	access = list(
@@ -169,7 +169,7 @@
 	department_flag = COM|BUR
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "The Tribunal Department"
+	supervisors = "The Foundation Tribunal"
 	economic_power = 4
 	minimal_player_age = 5
 	ideal_character_age = 30
@@ -206,13 +206,13 @@
 
 /datum/job/ethicsliaison
 
-	title = "Ethics Committee Liaison"
+	title = "Ethics Committee Representative"
 	department = "Civilian"
 	selection_color = "#2f2f7f"
 	department_flag = COM|BUR
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Ethics Committee"
+	supervisors = "The Ethics Committee"
 	economic_power = 4
 	minimal_player_age = 5
 	ideal_character_age = 30
