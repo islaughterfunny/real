@@ -236,7 +236,7 @@
 	department_flag = SEC|ECZ|BUR
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the EZ Supervisor"
+	supervisors = the Tribunal Officer"
 	economic_power = 5
 	requirements = list(EXP_TYPE_COMMAND = 120, EXP_TYPE_SECURITY = 180, EXP_TYPE_ENGINEERING = 90, EXP_TYPE_BUR = 60)
 	alt_titles = list()
