@@ -1,4 +1,4 @@
-/datum/job/captain
+ 	/datum/job/captain
 	title = "Site Director"
 	department = "Command"
 	head_position = TRUE
@@ -180,7 +180,8 @@
 		ACCESS_ADMIN_LVL2,
 		ACCESS_ADMIN_LVL3,
 		ACCESS_ADMIN_LVL4,
-		ACCESS_ADMIN_LVL5
+		ACCESS_ADMIN_LVL5,
+		ACCESS_MTF
 	)
 
 	minimal_access = list()
@@ -223,7 +224,8 @@
 		ACCESS_ADMIN_LVL2,
 		ACCESS_ADMIN_LVL3,
 		ACCESS_ADMIN_LVL4,
-		ACCESS_ADMIN_LVL5
+		ACCESS_ADMIN_LVL5,
+		ACCESS_MTF
 	)
 
 	minimal_access = list()
